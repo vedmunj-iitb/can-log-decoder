@@ -3,8 +3,9 @@
 Turns a CAN bus log into readable values, in C++17. It reads `candump -l` logs (Linux
 SocketCAN) and a small signal table, and writes one CSV row per decoded value.
 
-For my e-bike project an ESP32 read battery and motor-controller frames off the bike's CAN bus.
-This tool does the decoding part on a PC, from a standard candump log.
+Written in 2026, separate from my e-bike project, where an ESP32 read battery and
+motor-controller frames off the bike's CAN bus. This tool was not used on the bike. It shows how
+frames like these can be decoded on a PC, from a standard candump log.
 
 ## Input
 
