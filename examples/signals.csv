@@ -1,0 +1,8 @@
+# Example table for the sample log. The IDs and layout are made up,
+# they are not the message layout of any real vehicle.
+# name,id,start,length,signed,scale,offset,unit
+pack_voltage,0x1A0,0,2,0,0.01,0,V
+pack_current,0x1A0,2,2,1,0.1,0,A
+soc,0x1A0,4,1,0,1,0,%
+motor_rpm,0x2B0,0,2,0,1,0,rpm
+motor_temp,0x2B0,2,1,0,1,-40,C
